@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+.txt {
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  font-size: 23px;
+  font-family: "Indie Flower", cursive;
+  color: wheat;
+}
+h1 {
+  text-align: center;
+  padding-top: 3rem;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 55px;
+  color: wheat;
+}
+body {
+  background-image: url(https://images4.alphacoders.com/101/thumb-1920-1016737.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

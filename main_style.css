@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+.Maindiv {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 30px;
+}
+h1 {
+  text-align: center;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 80px;
+}
+.first,
+.second,
+.third,
+.for {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.book {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .Maindiv {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+  }
+  .book {
+    padding-top: 5rem;
+    padding-left: 5rem;
+  }
+}
+body {
+  background-image: url(https://media1.tenor.com/images/0cca08a1809076586c912020062f2d6c/tenor.gif?itemid=15974488);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
